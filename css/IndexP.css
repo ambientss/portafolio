@@ -1,0 +1,40 @@
+*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-family:'Poppins',sans-serif;font-weight:400;list-style-type:none;}
+a{text-decoration:none;color:rgb(0,0,0);}
+html{width:100%;height:100%;}
+body{width:100%;height:100%;background-color:rgb(245,245,245);}
+header{width:100%;height:100%;position:absolute;top:0;left:0;}
+header nav{width:100%;letter-spacing:.05em;}
+header nav h1{margin-top:14px;text-align:center;}
+#m_gtz{font-size:18pt;font-weight:700;color:rgb(255,255,255);text-shadow:2px 2px 4px rgba(0,0,0,.3);}
+header nav ul{margin-top:10px;text-align:center;}
+header nav ul li{display:inline-block;margin:0 8% 0 10%;}
+header nav ul li a{font-size:22pt;font-weight:700;color:rgb(255,255,255);text-shadow:2px 2px 4px rgba(0,0,0,.3);}
+#m_bio:after{content:'_';-webkit-animation:parpadeo 1s infinite;-moz-animation:parpadeo 1s infinite;animation:parpadeo 1s infinite;}
+@-webkit-keyframes parpadeo{0%,100%{opacity:0;}50%{opacity:1;}}
+@-moz-keyframes parpadeo{0%,100%{opacity:0;}50%{opacity:1;}}
+@keyframes parpadeo{0%,100%{opacity:0;}50%{opacity:1;}}
+header article{width:90%;margin:10% 5% 0 5%;}
+header article h2{font-size:40pt;font-family:'Roboto Slab',serif;color:rgb(255,255,255);margin-left:20px;text-shadow:2px 2px 6px rgba(0,0,0,.5);}
+header article p{font-size:22pt; font-family:'Roboto Slab',serif;color:rgb(255,255,255);text-shadow:2px 2px 4px rgba(0,0,0,.5);letter-spacing:.04em;}
+.bg_proyecto{width:100%;height:100%;margin:0 auto;position:relative;}
+.bg_proyecto::after{height:100%;width:100%;position:absolute;top:0;left:0;z-index:0;}
+@-webkit-keyframes bg-proyecto{4%{opacity:1;}20%{opacity:1;}24%{opacity:0;}}
+@-moz-keyframes bg-proyecto{4%{opacity:1;}20%{opacity:1;}24%{opacity:0;}}
+@keyframes bg-proyecto{4%{opacity:1;}20%{opacity:1;}24%{opacity:0;}}
+.bg-img-slide li{height:100%;width:100%;position:absolute;top:0;left:0;z-index:0;opacity:0;background-size:cover;background-repeat:no-repeat;background-attachment:fixed;-webkit-animation:bg-proyecto 30s infinite both;-moz-animation:bg-proyecto 30s infinite both;animation:bg-proyecto 30s infinite both;background-image:url(../img/5_DSC08842.jpg);background-position:50% 0%;}
+.bg-img-slide li:nth-child(2){background-image:url(../img/4_tAgustin.jpg);background-position:60% 50%;-webkit-animation-delay:6s;-moz-animation-delay:6s;animation-delay:6s;}
+.bg-img-slide li:nth-child(3){background-image:url(../img/3_LijasSekta.jpg);background-position:50% 50%;-webkit-animation-delay:12s;-moz-animation-delay:12s;animation-delay:12s;}
+.bg-img-slide li:nth-child(4){background-image:url(../img/2_tCLupita.jpg);background-position:50% 50%;-webkit-animation-delay:18s;-moz-animation-delay:18s;animation-delay:18s;}
+.bg-img-slide li:nth-child(5){background-image:url(../img/1_LabTab.jpg);background-position:50% 50%;-webkit-animation-delay:24s;-moz-animation-delay:24s;animation-delay:24s;}
+#esp{width:320px;position:absolute;bottom:30px;right:4%;text-align:right;font-size:14pt;color:rgb(255,255,255);letter-spacing:.06em;word-spacing:.06em;}
+footer{width:100%;margin-bottom:40px;}
+footer address{font-style:normal;text-align:center;margin-top:20px;}
+footer address p{line-height:3;}
+#c_Num{font-size:22pt;letter-spacing:.1em;}
+#c_Email,#c_Local{font-size:22pt;}
+footer .RedesSociales{margin-top:30px;}
+footer .RedesSociales div{width:300px;margin:0 auto;}
+footer .RedesSociales div a{display:inline-block;width:34px;margin:0 31px;}
+footer .RedesSociales div a img{width:34px;}
+footer .Formulario{display:none;}
+#firma{display:inline-block;width:100%;margin-bottom:10px;font-style:normal;font-size:14pt;text-align:center;}

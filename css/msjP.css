@@ -1,0 +1,26 @@
+*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-family:'Poppins',sans-serif;font-weight:400;list-style-type:none;}
+a{text-decoration:none;color:rgb(0,0,0);}
+html{width:100%;height:100%;}
+body{width:100%;height:100%;background-color:rgb(245,245,245);}
+header{width:100%;height:70%;position:absolute;top:0;left:0;}
+header nav{width:100%;letter-spacing:.05em;}
+header nav h1{margin-top:14px;text-align:center;}
+#m_gtz{font-size:18pt;font-weight:700;text-shadow:2px 2px 4px rgba(0,0,0,.3);}
+header nav ul{margin-top:10px;text-align:center;}
+header nav ul li{display:inline-block;margin:0 8% 0 10%;}
+header nav ul li a{font-size:22pt;font-weight:700;text-shadow:2px 2px 4px rgba(0,0,0,.3);}
+#m_bio:after{content:'_';-webkit-animation:parpadeo 1s infinite;-moz-animation:parpadeo 1s infinite;animation:parpadeo 1s infinite;}
+@-webkit-keyframes parpadeo{0%,100%{opacity:0;}50%{opacity:1;}}
+@-moz-keyframes parpadeo{0%,100%{opacity:0;}50%{opacity:1;}}
+@keyframes parpadeo{0%,100%{opacity:0;}50%{opacity:1;}}
+section{width:100%;text-align:center;}
+#s1{position:absolute;top:25%;}
+#s1 #msj1{font-size:28pt;font-weight:700;font-family:'Roboto Slab';}
+#s1 #msj2{font-size:22pt;font-weight:700;}
+footer{width:100%;height:198px;position:absolute;left:0;bottom:0;}
+footer .RedesSociales div{width:300px;margin:0 auto;}
+footer .RedesSociales div a{display:inline-block;width:34px;margin:0 31px;}
+footer .RedesSociales div a img{width:34px;}
+footer .Formulario{display:none;}
+.fDatos {display:block;width:100%;position:absolute;bottom:0px;}
+#firma{display:inline-block;width:100%;margin-bottom:10px;font-style:normal;font-size:14pt;text-align:center;}
