@@ -21,7 +21,7 @@ header article p{font-size:22pt; font-family:'Roboto Slab',serif;color:rgb(255,2
 @-webkit-keyframes bg-proyecto{4%{opacity:1;}20%{opacity:1;}24%{opacity:0;}}
 @-moz-keyframes bg-proyecto{4%{opacity:1;}20%{opacity:1;}24%{opacity:0;}}
 @keyframes bg-proyecto{4%{opacity:1;}20%{opacity:1;}24%{opacity:0;}}
-.bg-img-slide li{height:100%;width:100%;position:absolute;top:0;left:0;z-index:0;opacity:0;background-size:cover;background-repeat:no-repeat;background-attachment:fixed;-webkit-animation:bg-proyecto 30s infinite both;-moz-animation:bg-proyecto 30s infinite both;animation:bg-proyecto 30s infinite both;background-image:url(../img/5_DSC08842.jpg);background-position:50% 0%;}
+.bg-img-slide li{height:100%;width:100%;position:absolute;top:0;left:0;z-index:0;opacity:0;background-size:cover;background-repeat:no-repeat;background-attachment:fixed;-webkit-animation:bg-proyecto 30s infinite both;-moz-animation:bg-proyecto 30s infinite both;animation:bg-proyecto 30s infinite both;background-image:url(../img/2_tCLupita.jpg);background-position:50% 0%;}
 .bg-img-slide li:nth-child(2){background-image:url(../img/4_tAgustin.jpg);background-position:60% 50%;-webkit-animation-delay:6s;-moz-animation-delay:6s;animation-delay:6s;}
 .bg-img-slide li:nth-child(3){background-image:url(../img/3_LijasSekta.jpg);background-position:50% 50%;-webkit-animation-delay:12s;-moz-animation-delay:12s;animation-delay:12s;}
 .bg-img-slide li:nth-child(4){background-image:url(../img/2_tCLupita.jpg);background-position:50% 50%;-webkit-animation-delay:18s;-moz-animation-delay:18s;animation-delay:18s;}
